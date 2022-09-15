@@ -1,0 +1,891 @@
+{
+
+  "common_login_warning": "شما باید حساب کاربری خود را وارد کنید",
+
+  "common_nothing_to_pay": "چیزی برای پرداخت نیست",
+
+  "common_see_details": "جزییات را ببینید",
+
+  "common_no_payment_method_added": "هیچ روش پرداختی اضافه نشده",
+
+  "common_payment_choice_warning": "لطفاً یک گزینه پرداخت را انتخاب کنید",
+
+  "common_no_data_available": "اطلاعاتی موجود نیست",
+
+  "common_no_address_added": "هیچ آدرسی اضافه نشده است",
+
+  "common_loading_more_products": "محصولات بیشتری در حال بارگیری هستند",
+
+  "common_no_more_products": "دیگر محصولی وجود ندارد",
+
+  "common_no_product_is_available": "محصولات موجود نیست",
+
+  "common_loading_more_brands": "بارگیری مارک های بیشتر",
+
+  "common_no_more_brands": "دیگر برندی وجود ندارد",
+
+  "common_no_brand_is_available": "مارکی موجود نیست",
+
+  "common_loading_more_items": "...بارگیری مقالات بیشتر",
+
+  "common_no_more_items": "محصولات دیگری وجود ندارد",
+
+  "common_no_item_is_available": "محصولات دیگری وجود ندارد",
+
+  "common_loading_more_shops": "...مغازه های بیشتری بارگیری خواهند شد",
+
+  "common_no_more_shops": "دیگر مغازه ای نیست",
+
+  "common_no_shop_is_available": "فروشگاه در دسترس نمی باشد",
+
+  "common_loading_more_histories": "...بارگیری تاریخچه های بیشتر",
+
+  "common_no_more_histories": "دیگر تاریخچه نیست",
+
+  "common_no_history_is_available": "هیچ سابقه ای در دسترس نیست",
+
+  "common_loading_more_categories": "...دسته بندی های بیشتری در حال بارگیری هستند",
+
+  "common_no_more_categories": "دسته بندی بیشتری وجود ندارد",
+
+  "common_no_category_is_available": "دسته بندی موجود نیست",
+
+  "common_coming_soon": "به زودی وارد بازار می شود",
+
+  "common_close_in_all_capital": "بستن",
+
+  "common_close_in_all_lower": "بستن",
+
+  "common_close_ucfirst": "بستن",
+
+  "common_cancel_in_all_capital": "لغو",
+
+  "common_cancel_in_all_lower": "لغو",
+
+  "common_cancel_ucfirst": "لغو",
+
+  "common_confirm_in_all_capital": "تایید",
+
+  "common_confirm_in_all_lower": "تایید",
+
+  "common_confirm_ucfirst": "تایید",
+
+  "common_update_in_all_capital": "برای به روز رسانی",
+
+  "common_update_in_all_lower": " به روز رسانی",
+
+  "common_update_ucfirst": " به روز رسانی",
+
+  "common_send_in_all_capital": "ارسال کردن",
+
+  "common_send_in_all_lower": "ارسال ",
+
+  "common_send_ucfirst": "ارسال ",
+
+  "common_clear_in_all_capital": "پاک کردن",
+
+  "common_clear_in_all_lower": "حذف",
+
+  "common_clear_ucfirst": "حذف",
+
+  "common_apply_in_all_capital": "درخواست دادن",
+
+  "common_apply_in_all_lower": "درخواست دادن",
+
+  "common_apply_ucfirst": "درخواست",
+
+  "common_add_in_all_capital": "اضافه کردن",
+
+  "common_add_in_all_lower": "اضافه",
+
+  "common_add_ucfirst": "اضافه",
+
+  "common_copied": "کپی",
+
+  "common_proceed": "ادامه دهید",
+
+  "common_proceed_in_all_caps": "ادامه دهید",
+
+  "common_submit": "ارسال",
+
+  "common_view_more": "بیشتر ببینید",
+
+  "common_show_less": "کمتر ببینید",
+
+  "common_selected": "انتخاب شد",
+
+  "common_creating_order": "...سفارش ایجاد کنید",
+
+  "common_payment_cancelled": "پرداخت لغو شد",
+
+  "common_photo_permission": "اجازه عکس",
+
+  "common_app_needs_permission": "این برنامه نیاز به مجوز دارد",
+
+  "common_deny": "انکار",
+
+  "common_settings": "تنظیمات",
+
+  "common_give_photo_permission": "به تنظیمات برنامه خود بروید و اجازه عکس گرفتن را بدهید",
+
+  "common_no_file_chosen": "هیچ فایلی انتخاب نشد",
+
+  "common_yes": "تآیید",
+
+  "common_no": "نخیر",
+
+  "main_drawer_not_logged_in": "در حساب کاربری خود وارد نشده اید",
+
+  "main_drawer_change_language": "تغییر زبان",
+
+  "main_drawer_home": "خانه",
+
+  "main_drawer_profile": "مشخصات",
+
+  "main_drawer_orders": "سفارشات",
+
+  "main_drawer_my_wishlist": "لیست علاقه مندی های من",
+
+  "main_drawer_messages": "پیام",
+
+  "main_drawer_wallet": "بکسک پول من",
+
+  "main_drawer_login": "وارد شوید",
+
+  "main_drawer_logout": "خروج از سیستم",
+
+  "home_screen_close_app": "آیا می خواهید برنامه را ببندید؟",
+
+  "home_screen_top_categories": "دسته بندیهای برتر",
+
+  "home_screen_brands": "مارک ها",
+
+  "home_screen_top_sellers": "فروشنده برتر",
+
+  "home_screen_todays_deal": "پیشنهاد امروز",
+
+  "home_screen_flash_deal": "معاملات لایتنینگ",
+
+  "home_screen_featured_categories": "دسته های برجسته",
+
+  "home_screen_featured_products": "محصولات برجسته",
+
+  "home_screen_search": "جستجو کنید",
+
+  "home_screen_no_carousel_image_found": "هیچ تصویر چرخ فلکی یافت نشد",
+
+  "home_screen_no_category_found": "دسته بندی پیدا نشد",
+
+  "category_list_screen_top_categories": "دسته بندیهای برتر",
+
+  "category_list_screen_categories": "دسته بندی",
+
+  "category_list_screen_view_products": "نمایش محصولات",
+
+  "category_list_screen_view_subcategories": "نمایش زیرمجموعه ها",
+
+  "category_list_screen_no_subcategories": "هیچ زیرمجموعه ای موجود نیست",
+
+  "category_list_screen_all_products_of": "تمامی محصولات از",
+
+  "cart_screen_cannot_order_more_than": "بیشتر از این نمیشه سفارش داد",
+
+  "cart_screen_items_of_this": "اجناس آن",
+
+  "cart_screen_sure_remove_item": "آیا مطمئن هستید که می خواهید این مورد را حذف کنید؟",
+
+  "cart_screen_cancel": "حذف",
+
+  "cart_screen_confirm": "تایید",
+
+  "cart_screen_cart_empty": "سبد  خالی است",
+
+  "cart_screen_total_amount": "جمع مبلغ",
+
+  "cart_screen_update_cart": "به روز رسانی سبد خرید",
+
+  "cart_screen_proceed_to_shipping": "به ارسال ادامه دهید",
+
+  "cart_screen_shopping_cart": "سبد خرید",
+
+  "cart_screen_please_log_in": "لطفا برای مشاهده اقلام موجود در سبد خرید وارد شوید",
+
+  "profile_screen_please_log_in": "لطفا برای دیدن پروفایل وارد حساب شوید",
+
+  "profile_screen_orders": " سفارش",
+
+  "profile_screen_profile": "مشخصات",
+
+  "profile_screen_address": "آدرس منزل ",
+
+  "profile_screen_notification": "اطلاع",
+
+  "profile_screen_purchase_history": "سابقه خرید",
+
+  "profile_screen_earning_points": "تاریخچه امتیازکه به دست آوردهید",
+
+  "profile_screen_refund_requests": "درخواست بازپرداخت",
+
+  "profile_screen_in_your_cart": "در سبد خرید شما",
+
+  "profile_screen_in_wishlist": "در لیست آرزوها",
+
+  "profile_screen_in_ordered": "سفارش داده شده",
+
+  "profile_screen_check_balance": "موجودی حساب را بررسی کنید",
+
+  "profile_screen_account": "حساب",
+
+  "flash_deal_list_screen_flash_deal_has_ended" : "پیشنهاد لایتنینگ به پایان رسیده است",
+
+  "flash_deal_list_screen_ended" : "تکمیل شد",
+
+  "flash_deal_list_flash_deals" : "معاملات لایتنینگ",
+
+  "todays_deal_products_screen_todays_deal" : "پیشنهادات امروز",
+
+  "top_selling_products_screen_top_selling_products" : "پرفروش ترین محصولات",
+
+  "filter_screen_product" : " محصولات",
+
+  "filter_screen_products" : " محصولات",
+
+  "filter_screen_sellers" : "فروشنده",
+
+  "filter_screen_brands" : "برندها",
+
+  "filter_screen_categories" : "دسته بندی ها",
+
+  "filter_screen_filter_warning" : "هنگام جستجوی محصولات می توانید از فیلترها استفاده کنید",
+
+  "filter_screen_filter" : "فیلتر",
+
+  "filter_screen_sort_products_by" : "مرتب سازی محصولات بر اساس",
+
+  "filter_screen_price_high_to_low" : "قیمت بالا به پایین",
+
+  "filter_screen_price_low_to_high" : "قیمت کم به بالا",
+
+  "filter_screen_price_new_arrival" : "محصولات جدید",
+
+  "filter_screen_popularity" : "محبوبیت ها",
+
+  "filter_screen_top_rated" : "دارای رتبه برتر",
+
+  "filter_screen_maximum" : "بیشترین",
+
+  "filter_screen_minimum" : "کمترین",
+
+  "filter_screen_price_range" : "کلاس قیمت",
+
+  "filter_screen_search_here" : "اینجا جستجو کنید؟",
+
+  "filter_screen_no_suggestion_available" : "هیچ پیشنهادی در دسترس نیست",
+
+  "filter_screen_searched_for" : "جستجو برای",
+
+  "filter_screen_times" : "زمان",
+
+  "filter_screen_found" : "دریافت شد",
+
+  "filter_screen_loading_suggestions" : "در حال بارگیری پیشنهادات",
+
+  "filter_screen_sort" : "مرتب سازی بر اساس",
+
+  "filter_screen_default" : "پیش فرض",
+
+  "filter_screen_sort_warning" : "هنگام جستجوی محصولات می توانید از مرتب سازی استفاده کنید.",
+
+  "filter_screen_min_max_warning" : "حداقل قیمت نباید از حداکثر قیمت بیشتر باشد",
+
+  "product_details_screen_copy_product_link" : "لینک محصول را کپی کنید",
+
+  "product_details_screen_share_options" : "گزینه اشتراک گذاری",
+
+  "product_details_screen_seller_chat_title" : "عنوان",
+
+  "product_details_screen_seller_chat_enter_title" : "عنوان را وارد کنید",
+
+  "product_details_screen_seller_chat_messasge" : "پیام",
+
+  "product_details_screen_seller_chat_enter_messasge" : "پیام خود را وارد نمایید",
+
+  "product_details_screen_seller_chat_title_message_empty_warning" : "عنوان یا پیام نمی تواند خالی باشد",
+
+  "product_details_screen_seller_chat_creation_unable_warning" : "مکالمه ایجاد نشد",
+
+  "product_details_screen_snackbar_added_to_cart" : "به سبد خرید اضافه شد",
+
+  "product_details_screen_snackbar_show_cart" : "مشاهده سبد خرید",
+
+  "product_details_screen_description" : "شرح محصولات",
+
+  "product_details_screen_brand" : "برندها:",
+
+  "product_details_screen_total_price" : "قیمت کل:",
+
+  "product_details_screen_price" : "هزینه ها",
+
+  "product_details_screen_color" : "رنگ",
+
+  "product_details_screen_seller" : "فروشنده",
+
+  "product_details_screen_club_point" : "امتیاز باشگاه",
+
+  "product_details_screen_quantity" : "جمعیت",
+
+  "product_details_screen_video_not_available" : "ویدیوها در دسترس نیستند",
+
+  "product_details_screen_video" : "ویدئو",
+
+  "product_details_screen_reviews" : "بررسی ها و نظرایت ",
+
+  "product_details_screen_seller_policy" : "قوانین و مقررتات فروشنده",
+
+  "product_details_screen_return_policy" : "قوانین و مقررتات برگشت",
+
+  "product_details_screen_support_policy" : "قوانین و مقررتات پشتیبانی",
+
+  "product_details_screen_products_may_like" : "محصولاتی که ممکن است دوست داشته باشید",
+
+  "product_details_screen_top_selling_products_from_seller" : "محصولات پرفروش این فروشنده",
+
+  "product_details_screen_chat_with_seller" : "ارسال پیام به فروشنده",
+
+  "product_details_screen_available" : "در دسترس",
+
+  "product_details_screen_button_add_to_cart" : "به سبد خرید اضافه کنید",
+
+  "product_details_screen_button_buy_now" : "هم اکنون خریداری کنید",
+
+  "product_details_screen_no_top_selling_product" : "هیچ محصول پرفروشی از این فروشنده وجود ندارد",
+
+  "product_details_screen_no_related_product" : "هیچ محصول مرتبطی وجود ندارد",
+
+  "order_list_screen_all": "همه",
+
+  "order_list_screen_paid": "پرداخت شده",
+
+  "order_list_screen_unpaid": "پرداخت نشده",
+
+  "order_list_screen_confirmed": "تایید شده",
+
+  "order_list_screen_on_delivery": "در زمان تحویل",
+
+  "order_list_screen_delivered": "تحویل داده شده",
+
+  "order_list_screen_no_more_orders": "دیگر سفارشی نیست",
+
+  "order_list_screen_loading_more_orders": " ...نمایش سفارشات بیشتر",
+
+  "order_list_screen_purchase_history": "سابقه خرید",
+
+  "order_list_screen_payment_status": "وضعیت پرداخت ها",
+
+  "order_list_screen_delivery_status": "وضعیت تحویل محصولات",
+
+  "order_details_screen_refund_product_name": "نام محصول",
+
+  "order_details_screen_refund_order_code": "کد سفارش",
+
+  "order_details_screen_refund_reason": "دلیل",
+
+  "order_details_screen_refund_reason_empty_warning": "دلیل نمی تواند خالی باشد",
+
+  "order_details_screen_refund_enter_reason": "دلیل را وارد کنید",
+
+  "order_details_screen_refund_snackbar_show_request_list": "نمایش لیست درخواست",
+
+  "order_details_screen_ordered_product": "محصولات سفارش داده شده",
+
+  "order_details_screen_no_item_ordered": "هیچ کالایی سفارش داده نخواهد شد",
+
+  "order_details_screen_sub_total": "جمع فرعی",
+
+  "order_details_screen_tax": "مالیات بر ارزش افزوده",
+
+  "order_details_screen_shipping_cost": "قیمت حمل نقل",
+
+  "order_details_screen_discount": "تخفیف",
+
+  "order_details_screen_grand_total": "جمع مبلغ",
+
+  "order_details_screen_timeline_tile_order_placed": "سفارش ثبت شد",
+
+  "order_details_screen_timeline_tile_confirmed": "تایید شده",
+
+  "order_details_screen_timeline_tile_on_delivery": "در زمان تحویل",
+
+  "order_details_screen_timeline_tile_delivered": "تحویل داده شده",
+
+  "order_details_screen_order_code": "کد سفارش",
+
+  "order_details_screen_shipping_method": "نوع حمل و نقل",
+
+  "order_details_screen_order_date": "تاریخ سفارش",
+
+  "order_details_screen_payment_method": "روش پرداخت",
+
+  "order_details_screen_payment_status": "وضعیت پرداخت",
+
+  "order_details_screen_delivery_status": "وضعیت تحویل",
+
+  "order_details_screen_shipping_address": "آدرس تحویل دهیی",
+
+  "order_details_screen_total_amount": "جمع",
+
+  "order_details_screen_name": "اسم",
+
+  "order_details_screen_email": "پست الکترونیک",
+
+  "order_details_screen_address": "آدرس منزل",
+
+  "order_details_screen_city": "شهر",
+
+  "order_details_screen_state": "ایالت فدرال",
+
+  "order_details_screen_country": "کشور",
+
+  "order_details_screen_phone": "تلفن",
+
+  "order_details_screen_postal_code": "کد پستی",
+
+  "order_details_screen_item": "اجناس",
+
+  "order_details_screen_ask_for_refund": "درخواست بازپرداخت کنید",
+
+  "order_details_screen_refund_status": "وضعیت بازپرداخت",
+
+  "order_details_screen_order_details": "جزئیات سفارش",
+
+  "order_details_screen_make_offline_payment": "پرداخت آفلاین انجام دهید",
+
+  "shipping_info_screen_address_choice_warning": "لطفا یک آدرس انتخاب کنید",
+
+  "shipping_info_screen_address_or_pickup_choice_warning": "آدرس یا نقطه تحویل را انتخاب کنید",
+
+  "shipping_info_screen_country_warning": "یک کشور را انتخاب کنید",
+
+  "shipping_info_screen_go_to_address": "برای افزودن یا ویرایش آدرس ها، لطفاً به صفحه آدرس بروید",
+
+  "shipping_info_screen_address": "آدرس ",
+
+  "shipping_info_screen_city": "شهر",
+
+  "shipping_info_screen_enter_city": "لطفاَ شهر خود را وارد کنید",
+
+  "shipping_info_screen_postal_code": "کد پستی ",
+
+  "shipping_info_screen_country": "کشور",
+
+  "shipping_info_screen_state": "ایالت",
+
+  "shipping_info_screen_phone": "تلفن",
+
+  "shipping_info_screen_shipping_cost": "قیمت حمل ونقل",
+
+  "shipping_info_screen_btn_proceed_to_checkout": "پرداخت",
+
+  "no_pickup_point": "نقطه تحویل در دسترس نیست",
+
+  "pickup_point": "تحویل نقطه انتخاب",
+
+  "messenger_list_screen_messages": "پیام",
+
+  "chat_screen_btn_load_more": "بارگذاری بیشتر",
+
+  "loading_text": "...لطفا صبر کنید",
+
+  "chat_screen_type_message_here": "...پیام خود را اینجا بنویسید",
+
+  "wallet_screen_amount_warning": "مقدار نمی تواند خالی باشد",
+
+  "wallet_screen_my_wallet": "کیف من",
+
+  "wallet_screen_no_recharges_yet": "هنوز در حساب تان وارد نشده",
+
+  "wallet_screen_payment_method": "روش پرداخت",
+
+  "wallet_screen_approval_status": "وضعیت تایید شده",
+
+  "wallet_screen_wallet_balance": "موجودی کیف پول",
+
+  "wallet_screen_last_recharged": "آخرین شارژ",
+
+  "wallet_screen_wallet_recharge_history": "سابقه شارژ کیف پول",
+
+  "wallet_screen_amount": "مقدار ",
+
+  "wallet_screen_enter_amount": "مقدار را وارد کنید",
+
+  "recharge_wallet_screen_recharge_wallet": "کیف پول شارژ",
+
+  "checkout_screen_enter_coupon_code": "شماره کوپن را وارد کنید",
+
+  "checkout_screen_coupon_code_warning": "شماره کوپن",
+
+  "checkout_screen_subtotal": "جمع فرعی",
+
+  "checkout_screen_tax": "مالیات بر ارزش افزوده",
+
+  "checkout_screen_shipping_cost": "  پول حمل و نقل",
+
+  "checkout_screen_discount": "تخفیف",
+
+  "checkout_screen_grand_total": "جمع مبلغ",
+
+  "checkout_screen_total_amount": "مبلغ کل",
+
+  "checkout_screen_coupon_code": "کد کوپن",
+
+  "checkout_screen_apply_coupon": "درخواست کوپن",
+
+  "checkout_screen_place_my_order": "سفارش من را ثبت کنید",
+
+  "checkout_screen_remove": "حذف",
+
+  "checkout_screen_checkout": "پرداخت",
+
+  "wishlist_screen_login_warning": "لطفا برای دیدن اجناس های لیست علاقه مندی ها وارد شوید",
+
+  "wishlist_screen_my_wishlist": "لیست علاقه مندی های من",
+
+  "login_screen_email_warning": "ایمیل را وارد کنید",
+
+  "login_screen_phone_warning": "شماره تلفن را وارد کنید",
+
+  "login_screen_password_warning": "رمز عبور را وارد کنید",
+
+  "login_screen_login_to": "وارد شوید",
+
+  "login_screen_or_login_with_phone": "یا  با شماره تلفن وارد شوید",
+
+  "login_screen_or_login_with_email": "یا از طریق ایمیل وارد شوید",
+
+  "login_screen_email": "ایمیل ",
+
+  "login_screen_password": "رمز عبور ",
+
+  "login_screen_phone": " تلفن ",
+
+  "login_screen_forgot_password": "رمز عبور خود را فراموش کرده اید؟",
+
+  "login_screen_log_in": " وارد شوید",
+
+  "login_screen_or_create_new_account": "یا، یک حساب کاربری جدید ایجاد کنید؟",
+
+  "login_screen_sign_up": "ثبت نام کنید",
+
+  "login_screen_login_with": "وارد شوید با",
+
+  "registration_screen_name_warning": "لطفاً اسم خود را وارد کنید",
+
+  "registration_screen_email_warning": "ایمیل را وارد کنید",
+
+  "registration_screen_phone_warning": "شماره تلفن را وارد کنید",
+
+  "registration_screen_password_warning": "رمز عبور را وارد کنید",
+
+  "registration_screen_password_confirm_warning": "رمز عبور خود را تایید کنید",
+
+  "registration_screen_password_length_warning": "رمز عبور باید حداقل 6 کاراکتر داشته باشد",
+
+  "registration_screen_password_length_recommendation": "رمز عبور باید حداقل 6 کاراکتر داشته باشد",
+
+  "registration_screen_password_match_warning": "رمز عبور مطابقت ندارد",
+
+  "registration_screen_join": "اتصال",
+
+  "registration_screen_name": "نام ",
+
+  "registration_screen_email": "پست الکترونیک",
+
+  "registration_screen_phone": "تلفون",
+
+  "registration_screen_password": "رمز عبور",
+
+  "registration_screen_retype_password": "دوباره رمز عبور را وارد کنید",
+
+  "registration_screen_or_register_with_phone": "یا با شماره تلفن ثبت نام کنید",
+
+  "registration_screen_or_register_with_email": "یا با ایمیل ثبت نام کنید",
+
+  "registration_screen_register_sign_up": "وارد",
+
+  "registration_screen_already_have_account": "آیا از قبل حساب دارید ؟",
+
+  "registration_screen_log_in": "وارد شدن",
+
+  "password_forget_screen_email": "پست الکترونیک",
+
+  "password_forget_screen_phone": "تلفون",
+
+  "password_forget_screen_email_warning": "ایمیل را وارد کنید",
+
+  "password_forget_screen_phone_warning": "شماره تلفن را وارد کنید",
+
+  "password_forget_screen_forget_password": "رمز عبور را فراموش کرده اید؟",
+
+  "password_forget_screen_send_code_via_phone": "یا با شماره تلفن کد ارسال کنید",
+
+  "password_forget_screen_send_code_via_email": "یا کد را ایمیل کنید",
+
+  "otp_screen_btn_send_code": "ارسال کد",
+
+  "otp_screen_verification_code_warning": "کد تایید را وارد کنید",
+
+  "otp_screen_verify_your": "لطفا خود را بررسی کنید",
+
+  "otp_screen_email_account": "حساب کاربری ایمیل",
+
+  "otp_screen_phone_number": "شماره تلفن",
+
+  "otp_screen_enter_verification_code_to_email": "کد تأییدی را که اخیراً به ایمیل شما ارسال شده است وارد کنید.",
+
+  "otp_screen_enter_verification_code_to_phone": "کد تأییدی را که اخیراً به تلفن شما ارسال شده است وارد کنید.",
+
+  "otp_screen_confirm": "تایید",
+
+  "otp_screen_resend_code": "دوباره کد را ارسال کنید",
+
+  "password_otp_screen_code_warning": "کد را وارد کنید",
+
+  "password_otp_screen_password_warning": "رمز عبور را وارد کنید",
+
+  "password_otp_screen_password_confirm_warning": "رمز عبور خود را تایید کنید",
+
+  "password_otp_screen_password_length_warning": "رمز عبور باید حداقل 6 کاراکتر داشته باشد",
+
+  "password_otp_screen_password_length_recommendation": "رمز عبور باید حداقل 6 کاراکتر داشته باشد",
+
+  "password_otp_screen_password_match_warning": "رمزهای ورود مطابقت ندارند",
+
+  "password_otp_screen_enter_the_code_sent": "کد ارسال شده را وارد کنید",
+
+  "password_otp_screen_enter_verification_code_to_email": "کد تأییدی را که اخیراً به ایمیل شما ارسال شده است وارد کنید.",
+
+  "password_otp_screen_enter_verification_code_to_phone": "کد تأییدی را که اخیراً به تلفن شما ارسال شده است وارد کنید.",
+
+  "password_otp_screen_password": "رمز عبور",
+
+  "password_otp_screen_retype_password": "رمز عبور را دوباره وارد کنید",
+
+  "password_otp_screen_confirm": "تایید",
+
+  "password_otp_screen_resend_code": "دوباره کد را ارسال کنید",
+
+  "address_screen_address_warning": "آدرس را وارد کنید",
+
+  "address_screen_back_to_shipping_info": "بازگشت به اطلاعات حمل و نقل",
+
+  "address_screen_city_warning": "یک شهر را انتخاب کنید",
+
+  "address_screen_state_warning": "یک ایالت را انتخاب کنید",
+
+  "address_screen_country_warning": "یک کشور را انتخاب کنید",
+
+  "address_screen_address": "آدرس منزل",
+
+  "address_screen_enter_address": "آدرس را وارد کنید",
+
+  "address_screen_city": "شهر",
+
+  "address_screen_select_city": "یک شهر را انتخاب کنید",
+
+  "address_screen_enter_city": "اضافه کردن شهر",
+
+  "address_screen_postal_code": "کد پستی",
+
+  "address_screen_enter_postal_code": "کد پستی را وارد کنید",
+
+  "address_screen_country": "کشور",
+
+  "address_screen_select_country": "یک کشور را انتخاب کنید",
+
+  "address_screen_enter_country": "کشور را وارد کنید",
+
+  "address_screen_state": "شهر",
+
+  "address_screen_select_state": "یک شهر را انتخاب کنید",
+
+  "address_screen_enter_state": "شهر را وارد کنید",
+
+  "address_screen_phone": "تلفن",
+
+  "address_screen_enter_phone": "شماره گوشی را وارد کنید",
+
+  "address_screen_address_remove_warning": "آیا واقعاً می خواهید این آدرس را حذف کنید؟",
+
+  "address_screen_addresses_of_user": "آدرس کاربران",
+
+  "address_screen_addresses_to_make_default": "برای تنظیم یک آدرس به عنوان پیش فرض، دوبار ضربه بزنید",
+
+  "address_screen_no_country_available": "هیچ کشوری در دسترس نیست",
+
+  "address_screen_no_state_available": " ایالت موجود نیست ",
+
+  "address_screen_no_city_available": "شهری در دسترس نیست",
+
+  "address_screen_loading_countries": " ...در حال بارگیری کشورها",
+
+  "address_screen_loading_states": " ...ایالات بارگیری می شوند",
+
+  "address_screen_loading_cities": " ...بارگیری شهرها",
+
+  "address_screen_select_a_country_first": "ابتدا یک کشور را انتخاب کنید",
+
+  "address_screen_select_a_state_first": "ابتدا یک ایالت را انتخاب کنید",
+
+  "main_screen_bottom_navigation_home": "خانه",
+
+  "main_screen_bottom_navigation_categories": "دسته بندی ها",
+
+  "main_screen_bottom_navigation_cart": "سبد خرید",
+
+  "main_screen_bottom_navigation_profile": "مشخصات",
+
+  "bkash_screen_fetching_bkash_url": "Bkash-URL ...بازیابی می شود",
+
+  "bkash_screen_pay_with_bkash": " Bkash پرداخت با",
+
+  "nagad_screen_fetching_nagad_url": "Nagad-URL ...بازیابی می شود",
+
+  "nagad_screen_pay_with_nagad": " Nagad پرداخت با",
+
+  "iyzico_screen_pay_with_iyzico": "Iyzico پرداخت با",
+
+  "paypal_screen_fetching_paypal_url": "Paypal-URL  ...بازیابی می شود",
+
+  "paypal_screen_pay_with_paypal": "Paypal پرداخت با ",
+
+  "paystack_screen_pay_with_paystack": " Paystack پرداخت با",
+
+  "paytm_screen_pay_with_paytm": " Paytm پرداخت با",
+
+  "razorpay_screen_pay_with_razorpay": " Razorpay پرداخت با",
+
+  "sslcommerz_screen_fetching_sslcommerz_url": "sslcommerz-URL ...بازیابی می شود",
+
+  "sslcommerz_screen_pay_with_sslcommerz": " Sslcommerz پرداخت با",
+
+  "stripe_screen_pay_with_stripe": "با ویزا یا مستر کارت پرداخت می کنید Stripe",
+
+  "brand_products_screen_search_product_of_brand": "محصولات مارک دار را پیدا کنید",
+
+  "category_products_screen_search_products_from": "محصولات جستجو را از",
+
+  "flash_deal_products_screen_search_products_from": "محصولات را از",
+
+  "change_language_change_language": "تغییر زبان",
+
+  "change_language_no_language_is_added": "هیچ زبانی اضافه نشده است",
+
+  "club_point_screen_snackbar_points_converted": "امتیاز تبدیل به کیف پول",
+
+  "club_point_screen_snackbar_show_wallet": "نمایش کیف پول",
+
+  "club_point_screen_earned_points": "امتیازهای کسب شده",
+
+  "club_point_screen_converted_question": "تبدیل شده؟",
+
+  "club_point_screen_done": "انجام شده",
+
+  "club_point_screen_convert": "تبدیل",
+
+  "map_location_screen_your_delivery_location": ". . .محل تحویل شما ",
+
+  "map_location_screen_calculating": "...برای محاسبه",
+
+  "map_location_screen_pick_here": "اینجا را انتخاب کنید",
+
+  "offline_screen_amount_name_trxid_warning": "مبلغ، نام و شناسه تراکنش مورد نیاز است",
+
+  "offline_screen_photo_warning": "اثبات عکس مورد نیاز است",
+
+  "offline_screen_offline_payment": "پرداخت آفلاین",
+
+  "offline_screen_fields_mandatory": "تمام فیلدهایی که با * مشخص شده اند اجباری هستند",
+
+  "offline_screen_fill_up_necessary_info": "اطلاعات مورد نیاز را به درستی پر کنید. نمی‌توانید بعداً فرم را ویرایش یا ارسال کنید",
+
+  "offline_screen_amount": "مقدار",
+
+  "offline_screen_name": "اسم",
+
+  "offline_screen_transaction_id": "شناسه تراکنش",
+
+  "offline_screen_photo_proof": "اثبات عکس",
+
+  "offline_screen_only_image_file_allowed": "فقط فایل تصویری مجاز است",
+
+  "product_reviews_screen_type_your_review_here": "... نظریات و پیشنهادات خود را اینجا وارد کنید",
+
+  "product_reviews_screen_no_more_reviews": "نظریات و پیشنهادات دیگری وجود ندارد",
+
+  "product_reviews_screen_loading_more_reviews": "...نظرات بیشتر در حال بارگیری هستند",
+
+  "product_reviews_screen_no_reviews_yet": "نظریات و پیشنهادات هنوز رتبه بندی نشده است. اولین نفری باشید که این محصول را مورد بازنگری و نظر میدهد",
+
+  "product_reviews_screen_reviews": " نظریات و پیشنهادات",
+
+  "product_reviews_screen_login_warning": "شما باید وارد حساب خود شوید تا بتوانید متنی را پست کنید",
+
+  "product_reviews_screen_review_empty_warning": "نظریات و پیشنهادات نمی تواند خالی باشد",
+
+  "product_reviews_screen_star_warning": "حداقل یک ستاره باید داده شود",
+
+  "profile_edit_screen_name_warning": "لطفاً اسم خود را وارد کنید",
+
+  "profile_edit_screen_email_warning": "لطفاً ایمیل  خود را وارد کنید",
+
+  "profile_edit_screen_phone_warning": "لطفاً شماره تلفن  خود را وارد کنید",
+
+  "profile_edit_screen_password_warning": "لطفاً رمز عبور  خود را وارد کنید",
+
+  "profile_edit_screen_password_confirm_warning": "لطفاً رمز عبور خود را تایید کنید",
+
+  "profile_edit_screen_password_length_warning": "رمز عبور باید حداقل 6 کاراکتر داشته باشد",
+
+  "profile_edit_screen_password_match_warning": "رمزهای ورود  با هم مطابقت ندارند",
+
+  "profile_edit_screen_password_length_recommendation": "رمز عبور باید حداقل 6 کاراکتر داشته باشد",
+
+  "profile_edit_screen_login_warning": "لطفا برای دیدن پروفایل وارد حساب خود شوید",
+
+  "profile_edit_screen_basic_information": "اطلاعات اولیه",
+
+  "profile_edit_screen_name": "اسم",
+
+  "profile_edit_screen_password": "رمز عبور",
+
+  "profile_edit_screen_retype_password": "رمز عبور را دوباره وارد کنید",
+
+  "profile_edit_screen_btn_update_profile": "بروزرسانی پروفایل",
+
+  "profile_edit_screen_edit_profile": "ویرایش مشخصات",
+
+  "refund_request_screen_refund_requests": "برای وضعیت بازپرداخت درخواست دهید",
+
+  "refund_request_screen_refund_status": "وضعیت بازپرداخت",
+
+  "seller_details_screen_top_selling_products": "پرفروش ترین محصولات",
+
+  "seller_details_screen_featured_products": "محصولات ویژه",
+
+  "seller_details_screen_new_arrivals": "تازه رسیده ها",
+
+  "seller_details_screen_no_featured_porducts": "هیچ محصول ویژه ای از این فروشنده موجود نیست",
+
+  "seller_details_screen_no_top_selling_products": "هیچ محصول پرفروشی از این فروشنده وجود ندارد",
+
+  "seller_details_screen_no_new_arrival": "تازه وارد نیست",
+
+  "seller_details_screen_btn_view_all_products": "نمایش همه محصولات از این فروشنده",
+
+  "seller_products_screen_search_products_of_shop": "جستجوی محصولات در فروشگاه",
+  "main_drawer_privacy": "Privacy Policy",
+  "main_drawer_terms": "Terms & Conditions",
+  "main_drawer_delete": "Delete Account",
+  "main_drawer_shipping": "Shipping Policy"
+
+}
