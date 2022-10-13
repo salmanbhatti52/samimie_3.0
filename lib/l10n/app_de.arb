@@ -1,4 +1,7 @@
 {
+  "auction_product_screen_": "You need to log in",
+  "auction_product_screen_title": "Auction Product",
+
   "common_login_warning": "Sie müssen sich anmelden",
   "common_nothing_to_pay": "Nichts zu bezahlen",
   "common_see_details": "Siehe Einzelheiten",

@@ -206,7 +206,6 @@ class _MainDrawerState extends State<MainDrawer> {
                       )
                     : Container(),
                 Divider(height: 24),
-                Divider(height: 24),
                 ListTile(
                     visualDensity: VisualDensity(horizontal: -4, vertical: -4),
                     leading: Image.asset("assets/privacy.png",

@@ -28,6 +28,8 @@ import 'package:active_ecommerce_flutter/repositories/profile_repository.dart';
 import 'package:active_ecommerce_flutter/custom/toast_component.dart';
 import 'package:toast/toast.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 class Profile extends StatefulWidget {
   Profile({Key key, this.show_back_button = false}) : super(key: key);
@@ -181,9 +183,15 @@ class _ProfileState extends State<Profile> {
                         margin: EdgeInsets.only(right: 18),
                         height: 30,
                         child: InkWell(
-                            onTap: (){
+                            onTap: () {
                               Navigator.pop(context);
-                            }, child: Icon(Icons.close,color: MyTheme.white,size: 20,)),),
+                            },
+                            child: Icon(
+                              Icons.close,
+                              color: MyTheme.white,
+                              size: 20,
+                            )),
+                      ),
                     ),
 
                     // Container(
@@ -209,7 +217,6 @@ class _ProfileState extends State<Profile> {
                 slivers: [
                   SliverList(
                     delegate: SliverChildListDelegate([
-
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 18.0),
                         child: buildCountersRow(),
@@ -316,12 +323,9 @@ class _ProfileState extends State<Profile> {
             height: 40,
             child: TextButton(
               onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) {
-                      return DigitalProducts(
-
-                      );
-                    }));
+                Navigator.push(context, MaterialPageRoute(builder: (context) {
+                  return DigitalProducts();
+                }));
               },
               style: TextButton.styleFrom(
                   splashFactory: NoSplash.splashFactory,
@@ -355,11 +359,9 @@ class _ProfileState extends State<Profile> {
             height: 40,
             child: TextButton(
               onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) {
-                      return AuctionProducts(
-                      );
-                    }));
+                Navigator.push(context, MaterialPageRoute(builder: (context) {
+                  return AuctionProducts();
+                }));
               },
               style: TextButton.styleFrom(
                   splashFactory: NoSplash.splashFactory,
@@ -393,12 +395,9 @@ class _ProfileState extends State<Profile> {
             height: 40,
             child: TextButton(
               onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) {
-                      return WholeSaleProducts(
-
-                      );
-                    }));
+                Navigator.push(context, MaterialPageRoute(builder: (context) {
+                  return WholeSaleProducts();
+                }));
               },
               style: TextButton.styleFrom(
                   splashFactory: NoSplash.splashFactory,
@@ -432,12 +431,11 @@ class _ProfileState extends State<Profile> {
             height: 40,
             child: TextButton(
               onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) {
-                      return Filter(
-                        selected_filter: "sellers",
-                      );
-                    }));
+                Navigator.push(context, MaterialPageRoute(builder: (context) {
+                  return Filter(
+                    selected_filter: "sellers",
+                  );
+                }));
               },
               style: TextButton.styleFrom(
                   splashFactory: NoSplash.splashFactory,
@@ -634,7 +632,6 @@ class _ProfileState extends State<Profile> {
       ),
     );
   }
-
 
   Widget buildSettingAndAddonsHorizontalMenu() {
     return Container(
@@ -860,7 +857,8 @@ class _ProfileState extends State<Profile> {
                   height: 40,
                   child: TextButton(
                     onPressed: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (context) {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) {
                         return Wallet();
                       }));
                     },
@@ -883,8 +881,8 @@ class _ProfileState extends State<Profile> {
                         Text(
                           AppLocalizations.of(context).wallet_screen_my_wallet,
                           textAlign: TextAlign.center,
-                          style:
-                              TextStyle(color: MyTheme.dark_font_grey, fontSize: 12),
+                          style: TextStyle(
+                              color: MyTheme.dark_font_grey, fontSize: 12),
                         )
                       ],
                     ),
@@ -982,7 +980,8 @@ class _ProfileState extends State<Profile> {
                   height: 40,
                   child: TextButton(
                     onPressed: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (context) {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) {
                         return Clubpoint();
                       }));
                     },
@@ -1006,8 +1005,8 @@ class _ProfileState extends State<Profile> {
                           AppLocalizations.of(context)
                               .club_point_screen_earned_points,
                           textAlign: TextAlign.center,
-                          style:
-                              TextStyle(color: MyTheme.dark_font_grey, fontSize: 12),
+                          style: TextStyle(
+                              color: MyTheme.dark_font_grey, fontSize: 12),
                         )
                       ],
                     ),
@@ -1029,7 +1028,8 @@ class _ProfileState extends State<Profile> {
                   height: 40,
                   child: TextButton(
                     onPressed: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (context) {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) {
                         return RefundRequest();
                       }));
                     },
@@ -1053,8 +1053,8 @@ class _ProfileState extends State<Profile> {
                           AppLocalizations.of(context)
                               .refund_request_screen_refund_requests,
                           textAlign: TextAlign.center,
-                          style:
-                              TextStyle(color: MyTheme.dark_font_grey, fontSize: 12),
+                          style: TextStyle(
+                              color: MyTheme.dark_font_grey, fontSize: 12),
                         )
                       ],
                     ),
@@ -1096,11 +1096,171 @@ class _ProfileState extends State<Profile> {
                     Text(
                       AppLocalizations.of(context).main_drawer_messages,
                       textAlign: TextAlign.center,
-                      style:
-                          TextStyle(color: MyTheme.dark_font_grey, fontSize: 12),
+                      style: TextStyle(
+                          color: MyTheme.dark_font_grey, fontSize: 12),
                     )
                   ],
                 ),
+              ),
+            ),
+          ),
+          Divider(
+            thickness: 1,
+            color: MyTheme.light_grey,
+          ),
+          Container(
+            height: 40,
+            child: TextButton(
+              onPressed: () async {
+                var url =
+                    "${AppConfig.RAW_BASE_URL}/privacy-policy?lang=${app_language.$}";
+                final Uri _url = Uri.parse(url);
+
+                await launchUrl(_url, mode: LaunchMode.inAppWebView);
+              },
+              style: TextButton.styleFrom(
+                  splashFactory: NoSplash.splashFactory,
+                  alignment: Alignment.center,
+                  padding: EdgeInsets.zero),
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Image.asset(
+                    "assets/privacy.png",
+                    width: 16,
+                    height: 16,
+                    color: MyTheme.dark_font_grey,
+                  ),
+                  SizedBox(
+                    width: 24,
+                  ),
+                  Text(
+                    AppLocalizations.of(context).main_drawer_privacy,
+                    textAlign: TextAlign.center,
+                    style:
+                        TextStyle(color: MyTheme.dark_font_grey, fontSize: 12),
+                  )
+                ],
+              ),
+            ),
+          ),
+          Divider(
+            thickness: 1,
+            color: MyTheme.light_grey,
+          ),
+          Container(
+            height: 40,
+            child: TextButton(
+              onPressed: () async {
+                var url =
+                    "${AppConfig.RAW_BASE_URL}/terms?lang=${app_language.$}";
+                final Uri _url = Uri.parse(url);
+
+                await launchUrl(_url, mode: LaunchMode.inAppWebView);
+              },
+              style: TextButton.styleFrom(
+                  splashFactory: NoSplash.splashFactory,
+                  alignment: Alignment.center,
+                  padding: EdgeInsets.zero),
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Image.asset(
+                    "assets/hamburger.png",
+                    width: 16,
+                    height: 16,
+                    color: MyTheme.dark_font_grey,
+                  ),
+                  SizedBox(
+                    width: 24,
+                  ),
+                  Text(
+                    AppLocalizations.of(context).main_drawer_terms,
+                    textAlign: TextAlign.center,
+                    style:
+                        TextStyle(color: MyTheme.dark_font_grey, fontSize: 12),
+                  )
+                ],
+              ),
+            ),
+          ),
+          Divider(
+            thickness: 1,
+            color: MyTheme.light_grey,
+          ),
+          Container(
+            height: 40,
+            child: TextButton(
+              onPressed: () async {
+                var url =
+                    "${AppConfig.RAW_BASE_URL}/delete-account?lang=${app_language.$}&email=${user_email.$}";
+                final Uri _url = Uri.parse(url);
+
+                await launchUrl(_url, mode: LaunchMode.inAppWebView);
+              },
+              style: TextButton.styleFrom(
+                  splashFactory: NoSplash.splashFactory,
+                  alignment: Alignment.center,
+                  padding: EdgeInsets.zero),
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Image.asset(
+                    "assets/minus.png",
+                    width: 16,
+                    height: 16,
+                    color: MyTheme.dark_font_grey,
+                  ),
+                  SizedBox(
+                    width: 24,
+                  ),
+                  Text(
+                    AppLocalizations.of(context).main_drawer_delete,
+                    textAlign: TextAlign.center,
+                    style:
+                        TextStyle(color: MyTheme.dark_font_grey, fontSize: 12),
+                  )
+                ],
+              ),
+            ),
+          ),
+          Divider(
+            thickness: 1,
+            color: MyTheme.light_grey,
+          ),
+          Container(
+            height: 40,
+            child: TextButton(
+              onPressed: () async {
+                var url =
+                    "${AppConfig.RAW_BASE_URL}/shipping-policy?lang=${app_language.$}";
+                final Uri _url = Uri.parse(url);
+
+                await launchUrl(_url, mode: LaunchMode.inAppWebView);
+              },
+              style: TextButton.styleFrom(
+                  splashFactory: NoSplash.splashFactory,
+                  alignment: Alignment.center,
+                  padding: EdgeInsets.zero),
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Image.asset(
+                    "assets/cart.png",
+                    width: 16,
+                    height: 16,
+                    color: MyTheme.dark_font_grey,
+                  ),
+                  SizedBox(
+                    width: 24,
+                  ),
+                  Text(
+                    AppLocalizations.of(context).main_drawer_shipping,
+                    textAlign: TextAlign.center,
+                    style:
+                        TextStyle(color: MyTheme.dark_font_grey, fontSize: 12),
+                  )
+                ],
               ),
             ),
           ),
@@ -1165,9 +1325,8 @@ class _ProfileState extends State<Profile> {
   }
 
   Widget buildTopSection() {
-
     return Container(
-     // color: Colors.amber,
+      // color: Colors.amber,
       alignment: Alignment.center,
       height: 48,
       child: Row(
@@ -1204,7 +1363,6 @@ class _ProfileState extends State<Profile> {
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.center,
-
             children: [
               Text(
                 "${user_name.$}",
